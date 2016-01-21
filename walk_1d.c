@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 int time_to_end(int start_site, int num_sites) {
-   int i=start_site; int t=0;
+   int i=start_site; int t;
    for(t=0; i!=0 && i!=num_sites; ++t) {
       i += (rand()%2)*2-1;
    }
