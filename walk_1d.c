@@ -22,7 +22,7 @@ void main() {
    int num_sites=100; int start_site;
    srand(time(NULL));
    for(start_site=1; start_site<num_sites; ++start_site) {
-      float avg_time = avg_time_to_end(start_site, num_sites, 100);
+      float avg_time = avg_time_to_end(start_site, num_sites, 10000);
       printf("%d\t%f\n", start_site, avg_time);
    }
 }
